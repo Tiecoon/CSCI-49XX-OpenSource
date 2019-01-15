@@ -1,7 +1,7 @@
 	Eric Raymond's article is an interesting one as it helps people just start into a community and not mess up first impressions. As someone who hangs out on irc it is extremely frustrating when someone comes at me with a question which amounts to "it doesnt work". The best ways to prevent this is list your thought process, and to make sure i cant find a solution on the first page of google.
 	The story of this student is a sad one. The code they had created had been used in such a way that outside their control had gotta them in legal trouble. Legal issues are always a bad thing as big companies can bully others into giving up. This sometimes sets a bad precedent for future cases. Cases like this are why the eff is a good organization. It allows people to get help in legal cases in which they should be in the right. Overall misuse of a product has not had any recourse on the creator, however in this case storing copies of the information he found and reserving it is quite dangerous. Sadly many good technologies cannot feasibly prevent this. It is a sad truth for most of our industry.
-Photo of man tree ![tree](images/tree.png)
-Photo of regex ![regex](images/regex.png)
-Photo of Blockly ![blockly](images/blockly.png)
+Photo of man tree ![tree](../images/tree.png)
+Photo of regex ![regex](../images/regex.png)
+Photo of Blockly ![blockly](../images/blockly.png)
 
 	Overall when im looking for a project I tend to drift towards security oriented things as that is my interest. Recently I have also been drifting towards project in rust, because they tend to be well written with a good front facing interface. Overall the main determinate in wether I use a library or not isif i can easy use it. One bad example is unicorn emulator as their documentation is just hey look at this outdated talk we did. These projects while they know their own code it is hard for others to continue it. So projects like Xori, alacritty, or even just low level libraries like nix so i can use ptrace safely are appealing.  
