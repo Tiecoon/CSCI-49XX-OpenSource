@@ -197,11 +197,11 @@ def generate_graph(words):
     lookup = dict((c, lowercase.index(c)) for c in lowercase)
 
     def edit_distance_one(word):
+		result = []
         for i in range(len(word)):
             left, c, right = word[0:i], word[i], word[i + 1:]
             j = lookup[c]  # lowercase.index(c)
             # print("j " + str(j) + " " + left + " " + c + " " + right)
-            result = []
             for cc in lowercase[j + 1:]:
                 result += [
                     ''.join(p)
@@ -253,30 +253,29 @@ if __name__ == '__main__':
 ```
 ### Unordered results on 5 letter pairs
 ```
-lab6 ❯❯❯ ./wordsunordered.py words_dat.txt.gz 5                                                                                                                                                      master
+lab6 ❯❯❯ ./wordsunordered.py words_dat.txt.gz 5                                           master
 Loaded words_dat.txt containing 5757 five-letter English words.
 Two words are connected if they differ in one letter.
-Graph has 5757 nodes with 18100 edges
-642 connected components
+Graph has 5757 nodes with 112278 edges
+16 connected components
 Shortest path between chaos and order is
 chaos
-achoo
-poach
-copra
-coper
-opera
-roped
-erode
+hoars
+arose
+adore
 order
 Shortest path between nodes and graph is
 nodes
-dosed
-dopes
-doper
-opera
-pared
-grape
+anode
+agone
+anger
+gaper
 graph
 Shortest path between pound and marks is
-None
+pound
+mound
+monad
+damns
+drams
+marks
 ```
