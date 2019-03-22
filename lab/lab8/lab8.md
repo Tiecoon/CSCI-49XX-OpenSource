@@ -14,5 +14,9 @@
 
 ## the fix
 
-![failed build](pass.png)
-![failed build](fix.png)
+![passing build](pass.png)
+![code fix](fix.png)
+
+## Mattermost project
+
+![project info](project.png)
